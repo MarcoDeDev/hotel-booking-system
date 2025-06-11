@@ -1,6 +1,7 @@
 package com.marcod.hotebookinglsystem.hotel_booking_system.service;
 
 import com.marcod.hotebookinglsystem.hotel_booking_system.model.Hotel;
+import com.marcod.hotebookinglsystem.hotel_booking_system.model.Room;
 import com.marcod.hotebookinglsystem.hotel_booking_system.model.repository.HotelRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -13,6 +14,7 @@ public class HotelServiceImpl implements HotelService{
 
 
     private final HotelRepository hotelRepository;
+
 
     public HotelServiceImpl(HotelRepository hotelRepository) {
         this.hotelRepository = hotelRepository;
@@ -37,4 +39,5 @@ public class HotelServiceImpl implements HotelService{
     public void deleteHotelById(long id) {
         hotelRepository.deleteById(id);
     }
+
 }

@@ -32,12 +32,13 @@
 
 #### TODO
 - Klassenspezifische methoden schreiben
-* - Hotel:
-* - Zimmerbelegung
 
-* - Booking:
-- * Zimmerverfügbarkeit prüfen
-- * Kostenvorschlag
+*  Hotel:
+*  Zimmerbelegung
+
+* Booking:
+* Zimmerverfügbarkeit prüfen
+* Kostenvorschlag
 
 
 

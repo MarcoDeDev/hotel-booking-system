@@ -20,7 +20,7 @@ public class Hotel {
     private long id;
 
     @OneToMany(mappedBy = "hotel", cascade = CascadeType.ALL, orphanRemoval = true) // Ein Hotel hat viele Zimmer
-    private Set<Room> rooms = new HashSet<>(); // oder List<Room>
+    private Set<Room> rooms = new HashSet<>();
 
     private String hotelName;
     private String city;
