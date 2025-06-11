@@ -18,7 +18,36 @@
 * repository.CustomerRepository
 * repository.BookingRepository
 
+### Service (Interface) - CRUD - Operationen
+* service.HotelService
+* service.RoomService
+* service.CustomerService
+* service.BookingService
+ 
+### ServiceImpl - CRUD - Operationen
+* service.HotelServiceImpl
+* service.RoomServiceImpl
+* service.CustomerServiceImpl
+* service.BookingServiceImpl
+
+#### TODO
+- Klassenspezifische methoden schreiben
+* - Hotel:
+* - Zimmerbelegung
+
+* - Booking:
+- * Zimmerverfügbarkeit prüfen
+- * Kostenvorschlag
+
+
+
+- RestFull
+- Frontend
+- Testen (auch zwischendürch)
+
+
+
 ### Test
-*BookmanagerApplication: CommandLineRunner
+
 
 ### Service
