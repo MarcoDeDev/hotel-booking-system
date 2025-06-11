@@ -1,5 +1,6 @@
 package com.marcod.hotebookinglsystem.hotel_booking_system.service;
 
+import com.marcod.hotebookinglsystem.hotel_booking_system.model.Hotel;
 import com.marcod.hotebookinglsystem.hotel_booking_system.model.Room;
 
 import java.util.List;
@@ -15,4 +16,5 @@ public interface RoomService {
 
     void deleteRoomById(long id);
 
+    List<Room> findAvailableRooms(Hotel hotel);
 }

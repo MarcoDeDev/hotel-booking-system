@@ -24,14 +24,23 @@ public class Room {
     private Hotel hotel;
 
     private String roomNumber;
+    @Enumerated(EnumType.STRING)
     private RoomType roomType;
+    @Enumerated(EnumType.STRING)
+    private RoomStatus roomStatus;
     private double pricePerNight;
-    private boolean available = true;
+
 
     public Room(Hotel hotel, String roomNumber, RoomType roomType, double pricePerNight) {
         this.hotel = hotel;
         this.roomNumber = roomNumber;
         this.roomType = roomType;
         this.pricePerNight = pricePerNight;;
+    }
+
+    public Room(Hotel hotel, String roomNumber, RoomStatus roomStatus) {
+        this.hotel = hotel;
+        this.roomNumber = roomNumber;
+        this.roomStatus = roomStatus;
     }
 }
