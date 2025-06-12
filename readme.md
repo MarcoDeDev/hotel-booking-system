@@ -34,7 +34,7 @@
 - Klassenspezifische methoden schreiben
 
 *  Hotel:
-*  Zimmerbelegung
+*  Zimmerbelegung 
 
 * Booking:
 * Zimmerverfügbarkeit prüfen
