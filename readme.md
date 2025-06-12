@@ -30,19 +30,38 @@
 * service.CustomerServiceImpl
 * service.BookingServiceImpl
 
+### Controller
+* controller.Hotel
+* controller.Room
+* controller.Customer
+* controller.Booking
+
+### Testumgebung 
+* application-test.proprieties
+* HotelServiceTest (teilweise)
+* RoomServiceTest (teilweise)
+
+### exception Package
+* ResourceNotFoundException
+* implementiert beim deleteById()
+* implementiert beim  getById()
+
 #### TODO
 - Klassenspezifische methoden schreiben
 
 *  Hotel:
 *  Zimmerbelegung 
 
+* Room
+* getAllRoomsByHotel(oder HotelId)
+
 * Booking:
 * Zimmerverfügbarkeit prüfen
 * Kostenvorschlag
+* getAllBookingsByKunde(oder KundeId)
 
 
 
-- RestFull
 - Frontend
 - Testen (auch zwischendürch)
 
