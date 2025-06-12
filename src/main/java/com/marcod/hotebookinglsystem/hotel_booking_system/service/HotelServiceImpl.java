@@ -1,9 +1,7 @@
 package com.marcod.hotebookinglsystem.hotel_booking_system.service;
 
 import com.marcod.hotebookinglsystem.hotel_booking_system.model.Hotel;
-import com.marcod.hotebookinglsystem.hotel_booking_system.model.Room;
-import com.marcod.hotebookinglsystem.hotel_booking_system.model.repository.HotelRepository;
-import org.springframework.beans.factory.annotation.Autowired;
+import com.marcod.hotebookinglsystem.hotel_booking_system.repository.HotelRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -37,6 +35,10 @@ public class HotelServiceImpl implements HotelService{
 
     @Override
     public void deleteHotelById(long id) {
+
+        if (!hotelRepository.existsById(id)) {
+            throw new RuntimeException("Hotel with id: " + id + " not found!")
+        }
         hotelRepository.deleteById(id);
     }
 

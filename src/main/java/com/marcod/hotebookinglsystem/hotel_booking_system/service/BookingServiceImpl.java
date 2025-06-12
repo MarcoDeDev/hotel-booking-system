@@ -1,7 +1,7 @@
 package com.marcod.hotebookinglsystem.hotel_booking_system.service;
 
 import com.marcod.hotebookinglsystem.hotel_booking_system.model.Booking;
-import com.marcod.hotebookinglsystem.hotel_booking_system.model.repository.BookingRepository;
+import com.marcod.hotebookinglsystem.hotel_booking_system.repository.BookingRepository;
 
 import java.util.List;
 import java.util.Optional;
@@ -31,6 +31,10 @@ public class BookingServiceImpl implements BookingService{
 
     @Override
     public void deleteBookingById(long id) {
+
+        if (!bookingRepository.existsById(id)) {
+            throw new RuntimeException("Booking with id: " + id + " not found!")
+        }
         bookingRepository.deleteById(id);
     }
 }

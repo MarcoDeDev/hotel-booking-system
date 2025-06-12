@@ -3,7 +3,7 @@ package com.marcod.hotebookinglsystem.hotel_booking_system.service;
 import com.marcod.hotebookinglsystem.hotel_booking_system.model.Hotel;
 import com.marcod.hotebookinglsystem.hotel_booking_system.model.Room;
 import com.marcod.hotebookinglsystem.hotel_booking_system.model.RoomStatus;
-import com.marcod.hotebookinglsystem.hotel_booking_system.model.repository.RoomRepository;
+import com.marcod.hotebookinglsystem.hotel_booking_system.repository.RoomRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -35,6 +35,10 @@ public class RoomServiceImpl implements RoomService{
 
     @Override
     public void deleteRoomById(long id) {
+
+        if (!roomRepository.existsById(id)) {
+            throw new RuntimeException("Room with id: " + id + " not found!")
+        }
         roomRepository.deleteById(id);
     }
 

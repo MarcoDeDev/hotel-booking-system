@@ -1,7 +1,7 @@
 package com.marcod.hotebookinglsystem.hotel_booking_system.service;
 
 import com.marcod.hotebookinglsystem.hotel_booking_system.model.Customer;
-import com.marcod.hotebookinglsystem.hotel_booking_system.model.repository.CustomerRepository;
+import com.marcod.hotebookinglsystem.hotel_booking_system.repository.CustomerRepository;
 import org.springframework.stereotype.Service;
 
 import java.util.List;
@@ -33,6 +33,10 @@ public class CustomerServiceImpl implements CustomerService{
 
     @Override
     public void deleteCustomerById(long id) {
+
+        if (!customerRepository.existsById(id)) {
+            throw new RuntimeException("Customer with id: " + id + " not found!")
+        }
         customerRepository.deleteById(id);
     }
 }
