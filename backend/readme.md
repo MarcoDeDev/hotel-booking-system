@@ -62,7 +62,7 @@
 
 
 
-- Frontend
+- Frontend mit javaFX
 - Testen (auch zwischendürch)
 
 
