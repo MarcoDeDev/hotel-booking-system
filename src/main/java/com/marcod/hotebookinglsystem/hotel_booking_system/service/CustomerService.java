@@ -9,7 +9,7 @@ public interface CustomerService {
 
     Customer save (Customer customer);
 
-    Optional<Customer> getCustomerById(long id);
+    Customer getCustomerById(long id);
 
     List<Customer> getAllCustomers();
 

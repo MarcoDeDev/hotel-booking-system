@@ -10,7 +10,7 @@ public interface RoomService {
 
     Room save (Room room);
 
-    Optional<Room> getRoomById(long id);
+    Room getRoomById(long id);
 
     List<Room> getAllRooms();
 

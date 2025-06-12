@@ -1,5 +1,6 @@
 package com.marcod.hotebookinglsystem.hotel_booking_system.service;
 
+import com.marcod.hotebookinglsystem.hotel_booking_system.exception.ResourceNotFoundException;
 import com.marcod.hotebookinglsystem.hotel_booking_system.model.Hotel;
 import com.marcod.hotebookinglsystem.hotel_booking_system.repository.HotelRepository;
 import org.springframework.stereotype.Service;
@@ -24,8 +25,10 @@ public class HotelServiceImpl implements HotelService{
     }
 
     @Override
-    public Optional<Hotel> getHotelById(long id) {
-        return hotelRepository.findById(id);
+    public Hotel getHotelById(long id) {
+        return hotelRepository.findById(id)
+                              .orElseThrow(() -> new ResourceNotFoundException("Hotel with id: " + id + " not found!"));
+
     }
 
     @Override
@@ -37,7 +40,7 @@ public class HotelServiceImpl implements HotelService{
     public void deleteHotelById(long id) {
 
         if (!hotelRepository.existsById(id)) {
-            throw new RuntimeException("Hotel with id: " + id + " not found!")
+            throw new ResourceNotFoundException("Hotel with id: " + id + " not found!");
         }
         hotelRepository.deleteById(id);
     }

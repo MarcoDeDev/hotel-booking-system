@@ -10,7 +10,7 @@ public interface HotelService {
 
     Hotel save (Hotel hotel);
 
-    Optional<Hotel> getHotelById(long id);
+    Hotel getHotelById(long id);
 
     List<Hotel> getAllHotels();
 

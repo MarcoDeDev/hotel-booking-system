@@ -1,5 +1,6 @@
 package com.marcod.hotebookinglsystem.hotel_booking_system.service;
 
+import com.marcod.hotebookinglsystem.hotel_booking_system.exception.ResourceNotFoundException;
 import com.marcod.hotebookinglsystem.hotel_booking_system.model.Hotel;
 import com.marcod.hotebookinglsystem.hotel_booking_system.model.Room;
 import com.marcod.hotebookinglsystem.hotel_booking_system.model.RoomStatus;
@@ -24,8 +25,10 @@ public class RoomServiceImpl implements RoomService{
     }
 
     @Override
-    public Optional<Room> getRoomById(long id) {
-        return roomRepository.findById(id);
+    public Room getRoomById(long id) {
+
+        return roomRepository.findById(id)
+                             .orElseThrow(() -> new ResourceNotFoundException("Room with id: " + id + " not found!"));
     }
 
     @Override
@@ -37,7 +40,7 @@ public class RoomServiceImpl implements RoomService{
     public void deleteRoomById(long id) {
 
         if (!roomRepository.existsById(id)) {
-            throw new RuntimeException("Room with id: " + id + " not found!")
+            throw new ResourceNotFoundException("Room with id: " + id + " not found!");
         }
         roomRepository.deleteById(id);
     }

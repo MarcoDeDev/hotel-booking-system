@@ -9,7 +9,7 @@ public interface BookingService {
 
     Booking save (Booking booking);
 
-    Optional<Booking> getBookingById(long id);
+    Booking getBookingById(long id);
 
     List<Booking> getAllBookings();
 
