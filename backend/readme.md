@@ -1,4 +1,4 @@
-# Hotel Booking System mit Spring JPA
+# Hotel Booking System with Spring JPA
 ## Version0.1
 
 * mit RestAPI
@@ -45,6 +45,10 @@
 * ResourceNotFoundException
 * implementiert beim deleteById()
 * implementiert beim  getById()
+
+### Class-specific methods
+* service.RoomServiceImpl:
+* findAvailableRooms(Hotel hotel)
 
 #### TODO
 - Klassenspezifische methoden schreiben

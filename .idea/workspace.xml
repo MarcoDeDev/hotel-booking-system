@@ -4,10 +4,45 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a84e8572-31ca-48ae-b5e4-61d9c91c6fcd" name="Changes" comment="">
+    <list default="true" id="a84e8572-31ca-48ae-b5e4-61d9c91c6fcd" name="Changes" comment="-pom.xml (frontend-javafx) update">
+      <change afterPath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotelbookingsystem/backend/service/HotelService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-javafx/readme.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/frontend-javafx/src/main/java/com/marcod/hotelbookingsystem/frontendjavafx/FrontendJavafxApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/backend/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/backend/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/backend/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotebookinglsystem/hotel_booking_system/HotelBookingSystemApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotelbookingsystem/backend/HotelBookingSystemApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotebookinglsystem/hotel_booking_system/controller/BookingController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotelbookingsystem/backend/controller/BookingController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotebookinglsystem/hotel_booking_system/controller/CustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotelbookingsystem/backend/controller/CustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotebookinglsystem/hotel_booking_system/controller/HotelController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotelbookingsystem/backend/controller/HotelController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotebookinglsystem/hotel_booking_system/controller/RoomController.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotelbookingsystem/backend/controller/RoomController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotebookinglsystem/hotel_booking_system/exception/ResourceNotFoundException.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotelbookingsystem/backend/exception/ResourceNotFoundException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotebookinglsystem/hotel_booking_system/model/Booking.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotelbookingsystem/backend/model/Booking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotebookinglsystem/hotel_booking_system/model/BookingStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotelbookingsystem/backend/model/BookingStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotebookinglsystem/hotel_booking_system/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotelbookingsystem/backend/model/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotebookinglsystem/hotel_booking_system/model/Hotel.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotelbookingsystem/backend/model/Hotel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotebookinglsystem/hotel_booking_system/model/Room.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotelbookingsystem/backend/model/Room.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotebookinglsystem/hotel_booking_system/model/RoomStatus.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotelbookingsystem/backend/model/RoomStatus.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotebookinglsystem/hotel_booking_system/model/RoomType.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotelbookingsystem/backend/model/RoomType.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotebookinglsystem/hotel_booking_system/repository/BookingRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotelbookingsystem/backend/repository/BookingRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotebookinglsystem/hotel_booking_system/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotelbookingsystem/backend/repository/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotebookinglsystem/hotel_booking_system/repository/HotelRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotelbookingsystem/backend/repository/HotelRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotebookinglsystem/hotel_booking_system/repository/RoomRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotelbookingsystem/backend/repository/RoomRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotebookinglsystem/hotel_booking_system/service/BookingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotelbookingsystem/backend/service/BookingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotebookinglsystem/hotel_booking_system/service/BookingServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotelbookingsystem/backend/service/BookingServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotebookinglsystem/hotel_booking_system/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotelbookingsystem/backend/service/CustomerService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotebookinglsystem/hotel_booking_system/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotelbookingsystem/backend/service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotebookinglsystem/hotel_booking_system/service/HotelService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotebookinglsystem/hotel_booking_system/service/HotelServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotelbookingsystem/backend/service/HotelServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotebookinglsystem/hotel_booking_system/service/RoomService.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotelbookingsystem/backend/service/RoomService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotebookinglsystem/hotel_booking_system/service/RoomServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/main/java/com/marcod/hotelbookingsystem/backend/service/RoomServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/marcod/hotebookinglsystem/hotel_booking_system/HotelBookingSystemApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/marcod/hotelbookingsystem/backend/HotelBookingSystemApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/marcod/hotebookinglsystem/hotel_booking_system/service/HotelServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/marcod/hotelbookingsystem/backend/service/HotelServiceTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/backend/src/test/java/com/marcod/hotebookinglsystem/hotel_booking_system/service/RoomServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/backend/src/test/java/com/marcod/hotelbookingsystem/backend/service/RoomServiceTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/frontend-javafx/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-javafx/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-javafx/src/main/java/com/marcod/hotebookingsystem/frontend_javafx/FrontendJavafxApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/frontend-javafx/src/test/java/com/marcod/hotebookingsystem/frontend_javafx/FrontendJavafxApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/frontend-javafx/src/test/java/com/marcod/hotelbookingsystem/frontendjavafx/FrontendJavafxApplicationTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,21 +52,21 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "MarcoDeDev"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;MarcoDeDev&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/MarcoDeDev/hotel-booking-system.git",
-    "accountId": "47932ba6-05f1-48b0-a0bd-a379820fbb94"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/MarcoDeDev/hotel-booking-system.git&quot;,
+    &quot;accountId&quot;: &quot;47932ba6-05f1-48b0-a0bd-a379820fbb94&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 0
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 0
+}</component>
   <component name="ProjectId" id="2yPVQuAHo0oqegdjgKUHLAIbCEl" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -39,15 +74,88 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.FrontendJavafxApplication.executor": "Run",
+    "Application.HotelBookingSystemApplication.executor": "Run",
+    "Application.Run Frontend.executor": "Run",
+    "Application.Run_Backend.executor": "Run",
+    "Application.Run_Frontend.executor": "Run",
+    "JUnit.HotelServiceTest.getHotelById.executor": "Run",
+    "JUnit.HotelServiceTest.save.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.git.unshallow": "true",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/student/Desktop/Umschulung/48_Schnittstellen IV - Projekt (Benjamin Brauer)/hotel-booking-system",
+    "last_opened_file_path": "C:/Users/student/Desktop/Umschulung/48_Schnittstellen IV - Projekt (Benjamin Brauer)/hotel-booking-system/backend",
     "settings.editor.selected.configurable": "preferences.JavaFX",
     "settings.editor.splitter.proportion": "0.3322502"
   }
 }]]></component>
+  <component name="RunManager" selected="Application.Run_Backend">
+    <configuration name="Run_Backend" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.marcod.hotelbookingsystem.backend.HotelBookingSystemApplication" />
+      <module name="hotel-booking-system" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/backend" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Run_Frontend" type="Application" factoryName="Application">
+      <option name="ALTERNATIVE_JRE_PATH" value="21" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+      <option name="MAIN_CLASS_NAME" value="com.marcod.hotelbookingsystem.frontendjavafx.FrontendJavafxApplication" />
+      <module name="frontend-javafx" />
+      <option name="VM_PARAMETERS" value="--module-path &quot;C:\Users\student\.m2\repository\org\openjfx\javafx-controls\21\javafx-controls-21-win.jar;C:\Users\student\.m2\repository\org\openjfx\javafx-fxml\21\javafx-fxml-21-win.jar;C:\Users\student\.m2\repository\org\openjfx\javafx-graphics\21\javafx-graphics-21-win.jar;C:\Users\student\.m2\repository\org\openjfx\javafx-base\21\javafx-base-21-win.jar&quot; --add-modules javafx.controls,javafx.fxml,javafx.graphics,javafx.base" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelServiceTest.getHotelById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hotel-booking-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marcod.hotelbookingsystem.backend.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.marcod.hotelbookinglsystem.hotel_booking_system.service" />
+      <option name="MAIN_CLASS_NAME" value="com.marcod.hotelbookingsystem.backend.service.HotelServiceTest" />
+      <option name="METHOD_NAME" value="getHotelById" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HotelServiceTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="hotel-booking-system" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.marcod.hotelbookingsystem.backend.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.marcod.hotebookinglsystem.hotel_booking_system.service" />
+      <option name="MAIN_CLASS_NAME" value="com.marcod.hotelbookingsystem.backend.service.HotelServiceTest" />
+      <option name="METHOD_NAME" value="save" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.Run_Frontend" />
+      <item itemvalue="Application.Run_Backend" />
+      <item itemvalue="JUnit.HotelServiceTest.getHotelById" />
+      <item itemvalue="JUnit.HotelServiceTest.save" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.HotelServiceTest.getHotelById" />
+        <item itemvalue="JUnit.HotelServiceTest.save" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -57,6 +165,42 @@
       <option name="presentableId" value="Default" />
       <updated>1749736182230</updated>
     </task>
+    <task id="LOCAL-00001" summary="-pom.xml (frontend-javafx) update">
+      <option name="closed" value="true" />
+      <created>1749737729461</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1749737729461</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="-pom.xml (frontend-javafx) update" />
+    <option name="LAST_COMMIT_MESSAGE" value="-pom.xml (frontend-javafx) update" />
   </component>
 </project>
